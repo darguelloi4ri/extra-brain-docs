@@ -1,0 +1,61 @@
+site_name: "EXTRA-BRAIN Documentation"
+repo_url: https://github.com/darguelloi4ri/extra-brain-docs
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+plugins:
+  - search
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Overview:
+      - Project at a glance: overview.md
+      - Objectives & Ambitions: objectives.md
+  - Architecture:
+      - Conceptual Architecture: architecture/concept.md
+      - Data Optimisation Spine: architecture/dos.md
+      - Neuromorphic Deployment Layer: architecture/deployment.md
+  - Work Packages:
+      - "WP1 \u2013 Management": wp/wp1.md
+      - "WP2 \u2013 Requirements & Pilots": wp/wp2.md
+      - "WP3 \u2013 Brain-Like NNs": wp/wp3.md
+      - "WP4 \u2013 Trustworthy Data Processing": wp/wp4.md
+      - "WP5 \u2013 HW/SW Co-design & XAI": wp/wp5.md
+      - "WP6 \u2013 Impact, D&E, Exploitation": wp/wp6.md
+  - Use Cases:
+      - "UC1 \u2013 Robotics Perception": use-cases/uc1.md
+      - "UC2 \u2013 Digital Finance Fraud": use-cases/uc2.md
+      - "UC3 \u2013 Telecommunication EUA": use-cases/uc3.md
+  - Trust & Governance:
+      - XAI & Human-Centricity: trust/xai.md
+      - "Ethics, SSH & Gender": trust/ethics-ssh-gender.md
+      - Open Science & Data: trust/open-science.md
+  - How-To:
+      - Build & Deploy: howto/build-deploy.md
+      - Contribute: howto/contribute.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/darguelloi4ri/extra-brain-docs
