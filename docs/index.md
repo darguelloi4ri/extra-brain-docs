@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# EXTRA-BRAIN Documentation Hub
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This section provides ready-made documentation derived from EXTRA-BRAIN’s proposal and technical materials. You can paste these pages directly into your site—no prompt engineering required.
 
-## Commands
+!!! tip "What’s inside"
+    - A concise overview of the project’s aims, needs, and breakthroughs  
+    - A practical, layered architecture (NN framework, Data Optimisation Spine, deployment)  
+    - Three fully formed use-case pages (Robotics, Digital Finance, Telecommunications)  
+    - Clear KPIs & evaluation criteria  
+    - A glossary, FAQ, and curated references
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## EXTRA-BRAIN at a glance
 
-## Project layout
+**Goal.** Develop brain-like neural networks (BLNNs) and a trustworthy, human-centric AI stack that learns fast from minimal data, runs efficiently across the edge–cloud continuum (ECC), and remains explainable and robust in real-world settings.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**Why now.** Classical DNNs are compute- and data-hungry, hard to deploy on constrained hardware, and difficult to interpret in shifting environments. EXTRA-BRAIN addresses these limits with biologically plausible learning (e.g., Hebbian/Bayesian mechanisms), sparse representations, and hardware-friendly designs.
+
+### Specific Needs (SN)
+- **SN#1–2:** Flexible, less resource-consuming models; new learning processes reducing data needs (few/one-shot, semi/unsupervised, active learning).  
+- **SN#3:** Software–hardware co-design and new profiles suitable for the ECC.  
+- **SN#4:** Explainability, trustworthiness, and robust behaviour under uncertainty.  
+- **SN#5:** Data optimisation pipeline (feature selection, augmentation/synthetic data, automatic labelling).  
+- **SN#6:** Real-world deployment with privacy and ethics built-in.
+
+### Targeted breakthroughs
+Energy-/resource-efficient AI, fast learning with less data, explainable and trustworthy pipelines, ethical/human-centric design, and ECC-ready hardware/software implementations.
+
+### Where this fits
+Subsequent pages detail the architecture, DOS pipeline, deployment layer, and the three pilots validating the approach in **Robotics (SAR)**, **Digital Finance**, and **Telecommunications (EUA)**.
