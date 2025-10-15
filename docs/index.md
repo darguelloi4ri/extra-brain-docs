@@ -1,15 +1,4 @@
-# EXTRA-BRAIN Documentation Hub
-
-This section provides ready-made documentation derived from EXTRA-BRAIN’s proposal and technical materials. You can paste these pages directly into your site—no prompt engineering required.
-
-!!! tip "What’s inside"
-    - A concise overview of the project’s aims, needs, and breakthroughs  
-    - A practical, layered architecture (NN framework, Data Optimisation Spine, deployment)  
-    - Three fully formed use-case pages (Robotics, Digital Finance, Telecommunications)  
-    - Clear KPIs & evaluation criteria  
-    - A glossary, FAQ, and curated references
-
-## EXTRA-BRAIN at a glance
+# EXTRA-BRAIN at a glance
 
 **Goal.** Develop brain-like neural networks (BLNNs) and a trustworthy, human-centric AI stack that learns fast from minimal data, runs efficiently across the edge–cloud continuum (ECC), and remains explainable and robust in real-world settings.
 

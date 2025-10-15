@@ -35,8 +35,8 @@ nav:
       - Objectives & Ambitions: objectives.md
   - Architecture:
       - Conceptual Architecture: architecture/concept.md
-      - Data Optimisation Spine: architecture/dos.md
-      - Neuromorphic Deployment Layer: architecture/deployment.md
+      - Data Optimisation Spine (DOS): architecture/dos.md
+      - Edge\u2013Cloud Deployment & Co-design: architecture/deployment.md
   - Work Packages:
       - "WP1 \u2013 Management": wp/wp1.md
       - "WP2 \u2013 Requirements & Pilots": wp/wp2.md
@@ -45,11 +45,17 @@ nav:
       - "WP5 \u2013 HW/SW Co-design & XAI": wp/wp5.md
       - "WP6 \u2013 Impact, D&E, Exploitation": wp/wp6.md
   - Use Cases:
-      - "UC1 \u2013 Robotics Perception": use-cases/uc1.md
-      - "UC2 \u2013 Digital Finance Fraud": use-cases/uc2.md
-      - "UC3 \u2013 Telecommunication EUA": use-cases/uc3.md
+      - "UC1 \u2014 Robotics (SAR)": use-cases/uc1.md
+      - "UC2 \u2014 Digital Finance": use-cases/uc2.md
+      - "UC3 \u2014 Telecommunications (EUA)": use-cases/uc3.md
+  - Project Resources:
+      - KPIs & Evaluation: kpis.md
+      - Glossary: glossary.md
+      - Roadmap & Approach: roadmap.md
+      - FAQ: faq.md
+      - References: references.md
   - Trust & Governance:
-      - XAI & Human-Centricity: trust/xai.md
+      - Trust, Explainability & Ethics: trust/xai.md
       - "Ethics, SSH & Gender": trust/ethics-ssh-gender.md
       - Open Science & Data: trust/open-science.md
   - How-To:
